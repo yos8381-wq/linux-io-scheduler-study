@@ -1,0 +1,17 @@
+Device,Scheduler,Workload,IOPS,Bandwidth_MBs,Mean_Latency_ms,p99_Latency_ms
+HDD,mq-deadline,randread,9280.08,36.25,3.345,0.0
+HDD,mq-deadline,randrw,2945.05,11.5,2.864,0.0
+HDD,mq-deadline,randwrite,9300.56,36.33,3.332,0.0
+HDD,mq-deadline,read,9090.68,35.51,3.417,0.0
+HDD,none,randread,10225.87,39.95,3.035,0.0
+HDD,none,randrw,2897.75,11.32,2.869,0.0
+HDD,none,randwrite,10102.62,39.46,3.07,0.0
+HDD,none,read,9510.05,37.15,3.265,0.0
+SSD,mq-deadline,randread,17630.69,68.87,1.763,0.0
+SSD,mq-deadline,randrw,4040.95,15.79,2.19,0.0
+SSD,mq-deadline,randwrite,12307.97,48.08,2.531,0.0
+SSD,mq-deadline,read,16259.88,63.52,1.912,0.0
+SSD,none,randread,16094.03,62.87,1.928,0.0
+SSD,none,randrw,5143.69,20.09,1.697,0.0
+SSD,none,randwrite,17334.05,67.71,1.794,0.0
+SSD,none,read,15233.69,59.51,2.049,0.0
